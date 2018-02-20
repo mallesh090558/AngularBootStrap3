@@ -18,7 +18,7 @@ const appRoutes: Routes = [
     data: { title: 'Heroes List' }
   },
   { path: '',
-    redirectTo: '/main',
+    redirectTo: '/login',
     pathMatch: 'full'
   },
   { path: '**', component: ErrorPageComponent}
